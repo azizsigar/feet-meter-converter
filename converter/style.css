@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    height: auto;
+}
+input{
+    height: 90px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 2px black;
+    font-size: larger;
+
+}
+
+.texts{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+button{
+    height: 68px;
+    box-shadow: 2px 2px black;
+}
+button:hover{
+    background-color: tomato;
+    transition: 2s;
+}
